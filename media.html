@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8"/>
+<head>
+<title>Morgan Freeman</title>
+<link rel="stylesheet" href="style.css">
+<script type = "text/javascript">
+function goFullscreen(id)
+{
+var element = document.getElementById(id);
+if(element.mozRequestFullscreen){
+element.mozRequestFullscreen();
+
+}
+else if(element.webkitRequestFullscreen)
+{
+element.webkitRequestFullscreen();
+  }
+}
+</script>
+</head>
+<body>
+<header>
+<div class="container">
+<div id="Name">
+<h1><i>Morgan Freeman</i></h1>
+</div>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="form.html">Survey</a></li>
+<li><a href="media.html">Media</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<center><h1>Pictures of morgan Freeman</h1></center>
+<table style="width:100%">
+<tr>
+<td><img src ="morgan_freeman1.jpg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="280" align="center"></img></th>
+<td><img src ="morgan_freeman2.jpg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="280" align="center"></img></th>
+<td><img src ="morgan_freeman3.jpg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="280" align="center"></img></th>
+<td><img src ="morgan_freeman4.jpeg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="280" align="center"></img></th>
+<td><img src ="morgan_freeman9.jpg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="180" align="center"></img></th>
+</tr>
+<tr>
+<td><img src ="morgan_freeman5.jpg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="280" align="center"></img></th>
+<td><img src ="morgan_freeman6.jpg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="280" align="center"></img></th>
+<td><img src ="morgan_freeman7.jpeg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="280" align="center"></img></th>
+<td><img src ="morgan_freeman10.jpg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="280" align="center"></img></th>
+<td><img src ="poster2Small.jpeg"alt="picture of morgan Freeman" HEIGHT="200" WIDTH="180" align="center"></img></th>
+</tr>
+</table>
+<br/>
+<br/>
+<center>
+<br/>
+<h1>Background Audio Music</h1>
+&#8595;
+<br/>
+<br/>
+<audio controls autoplay loop><source src="Lullaby_by_Mattia_Cupelli.ogg" type="audio/ogg">Your browser does not support the audio element.</audio>
+<h1>Video of Morgan Freeman</h1>
+&#8595;
+<div id="video_container">
+<video id="myVideo" width="320" height="240" controls poster="poster.jpeg"><source src="MOTIVATION - Morgan Freeman.mp4" type="video/mp4" preload="auto">Your browser does not support the video tag.</video>
+</div>
+<br/>
+<button class="FullScreen"onclick="goFullscreen('myVideo');return false">Go Fullscreen</button>
+</center>
+<br/>
+</body>
+<center><footer><i>Morgan Freeman, Copyright &copy; 2018</i></footer></center>
+</html>

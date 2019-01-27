@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8"/>
+<head>
+<title>Morgan Freeman</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<div id="Name">
+<h1><i>Morgan Freeman</i></h1>
+</div>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="form.html">Survey</a></li>
+<li><a href="media.html">Media</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section id="survey">
+<div class="container">
+<form id="MyForm" action="Survey.html">
+<fieldset>
+<h3><label for="name">Name:</label>
+<input id="name" name="name" type="text" placeholder="Please Enter your Name" required/>
+</h3>
+<h3><label>Age:</label>
+<input list="Age" name="Age" placeholder="Please choose your Age!" required/>
+<datalist id="Age">
+<option value="10-20">
+<option value="21-30">
+<option value="31-90">
+</datalist>
+</h3>
+<h3><label for="email">Email:</label>
+<input id="email" name="Email" type="email" placeholder="Please Enter your Email" required/>
+</h3>
+<h3><label for="gender">Gender:</label>
+<input id="Gender" type="radio" name="gender" value="male" required><i>Male</i></input>
+<input id="Gender" type="radio" name="gender" value="female"><i>Female</i></input>
+</h3>
+<h3><label for="blog">Blog:</label>
+<input id="blog" name="blog" type="url" placeholder="Please Enter your Blog" required/>
+</h3>
+<h3><label for="phoneNumber">Phone Number:</label>
+<input id="phoneNumber" name="phoneNumber" type="tel" placeholder="Please Enter your Number" required/>
+</h3>
+<input type=submit value="Next"/>
+</fieldset>
+</form>
+</div>
+</section>
+</body>
+<center><footer><i>Morgan Freeman, Copyright &copy; 2018</i></footer></center>
+</html>
